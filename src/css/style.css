@@ -15,7 +15,7 @@ main{
     min-height: 100vh;
 }
 
-.acordeon{
+.accordion{
     width: 655px;
     min-height: 347px;
     box-shadow: 0 27px 49px -25px rgba(0, 0, 0, 0.3);
@@ -26,27 +26,27 @@ main{
     position: relative;
 }
 
-.acordeon .ilustracao{
+.accordion .ilustracao{
     position: absolute;
     margin-left: -90px;
 }
 
-.acordeon .conteudo{
+.accordion .conteudo{
     width: 90%;
     padding-left: 225px;
 }
 
-.acordeon .conteudo h1{
+.accordion .conteudo h1{
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 14px;
 }
 
-.acordeon .itens{
+.accordion .itens{
     list-style: none;
 }
 
-.acordeon .itens .item{
+.accordion .itens .item{
     cursor: pointer;
     background-image: url(../image/seta-pequena.png);
     background-repeat: no-repeat;
@@ -56,11 +56,11 @@ main{
     margin: 10px 0;
 }
 
-.acordeon .itens .item:last-child{
+.accordion .itens .item:last-child{
     border-bottom: none;
 }
 
-.acordeon .itens .item .pergunta{
+.accordion .itens .item .pergunta{
     padding-bottom: 15px;
     transition: 0.2s ease;
     font-size: 17px;
@@ -68,26 +68,25 @@ main{
     font-weight: 500;
 }
 
-.acordeon .itens .item .pergunta:hover{
+.accordion .itens .item .pergunta:hover{
     color: #f47c57;
 }
 
-.acordeon .itens .item .resposta{
+.accordion .itens .item .resposta{
     display: none;
     padding-bottom: 15px;
     font-size: 15px;
 }
 
-/* Quando tiver a classe ativo: */
-.acordeon .itens .item.ativo h2{
+.accordion .itens .item.ativo h2{
     font-size: 17px;
     font-weight: 700;
 }
 
-.acordeon .itens .item.ativo .resposta{
+.accordion .itens .item.ativo .resposta{
     display: block;
 }
 
-.acordeon .itens .item.ativo{
+.accordion .itens .item.ativo{
     background-image: url(../image/seta-aberta.png);
 }

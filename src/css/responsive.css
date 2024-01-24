@@ -1,42 +1,42 @@
 @media(max-width: 992px){
-    .acordeon{
+    .accordion{
         width: 555px;
         min-height: 300px;
     }
     
-    .acordeon .ilustracao{
+    .accordion .ilustracao{
         width: 220px;
     }
 
-    .acordeon .conteudo{
+    .accordion .conteudo{
         padding-left: 170px;
     }
 
-    .acordeon .conteudo h1{
+    .accordion .conteudo h1{
         font-size: 20px;
     }
 
-    .acordeon .itens .item .pergunta{
+    .accordion .itens .item .pergunta{
         font-size: 14px;
     }
     
-    .acordeon .itens .item .resposta{
+    .accordion .itens .item .resposta{
         font-size: 13px;
     }
 }
 
 @media(max-width: 768px){
-    .acordeon{
+    .accordion{
         width: 350px;
     }
     
-    .acordeon .ilustracao{
+    .accordion .ilustracao{
         width: 220px;
         margin-bottom: 100%;
         margin-left: 20%;
     }
 
-    .acordeon .conteudo{
+    .accordion .conteudo{
         padding-left: 20px;
         padding-top: 50px;
     }
